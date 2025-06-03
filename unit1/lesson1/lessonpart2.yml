@@ -1,0 +1,30 @@
+# yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
+id: lessonpart2
+title: Take-Home Assignment
+content: |+
+  ### 🏠 Take-Home Challenge: My Intro Script
+
+  Create a script called `my_intro_script.py` that:
+
+  * Asks the user for their name, favorite food, and a number
+  * Prints a few fun sentences using the answers
+  * Uses string concatenation and at least one string method
+  * Includes 2 comments to explain your code
+
+  **Example Output:**
+
+  ```
+  What is your name? Travis
+  What's your favorite food? tacos
+  Pick a number: 3
+
+  Hello Travis!
+  Wow, 3 tacos sounds great!
+  TRAVIS really likes tacos.
+  ```
+
+  Submit your file to Google Classroom when finished.
+
+showEditor: true
+editors:
+  - course1/unit1/lesson1/lessonpart2/my_intro_script.py

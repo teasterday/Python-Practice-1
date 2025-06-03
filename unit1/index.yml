@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: unit1
-title: Week 1 Homework
+title: Week 1 Lesson and Homework
 objectives: ""
 lessons:
-  - lesson3/index.yml
+  - lesson1/index.yml

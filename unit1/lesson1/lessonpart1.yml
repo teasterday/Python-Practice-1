@@ -1,196 +1,98 @@
 # yaml-language-server: $schema=https://vscodeedu.com/assets/schema/course-v2.schema.json
 id: lessonpart1
-title: Page
-content: >+
+title: Take Home Lesson
+duration: 5
+content: |+
   ### 🧠 Concept Summary
-
 
   **print()**
 
-
   * Displays a message to the screen.
 
-
   ```
-
   print("Hello, world!")
-
   ```
-
 
   **input()**
 
-
   * Asks the user to type something.
 
-
   ```
-
   name = input("What is your name? ")
-
   ```
-
 
   **Comments**
 
-
   * Notes in your code for humans to read.
 
-
   ```
-
   # This line says hello
-
   print("Hello!")
-
   ```
-
 
   **String Concatenation**
 
-
   * Combining strings using `+`.
 
-
   ```
-
   print("Hello, " + name)
-
   ```
-
 
   **String Methods**
 
-
   * Functions you can use on strings.
 
-
   ```
-
   print(name.upper())
-
   print(name.lower())
-
   ```
-
 
   **Type Checking**
 
-
   * Use `type()` to find out what kind of data something is.
 
-
   ```
-
   print(type(name))
-
   ```
-
 
   ***
-
-
-  ### 📝 Practice Time!
-
-
-  Fill in the blanks or answer the questions.
-
-
-  1. What function lets you print to the screen?
-  \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-  2. How do you ask a user for input? \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-  3. What does this print?
-
-
-  ```
-
-  print("Hello, " + "world!")
-
-  ```
-
-
-  Answer: \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
-
-      4. What does `.upper()` do to a string?
-  \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_ \
-
-      5. What does `#` mean in Python code?
-  \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
-
-
-
-  ***
-
 
   ### 🧪 Code Examples (Quick Start)
 
-
   ```
-
   # Say hello and ask a question
-
   print("Welcome to class!")
-
   name = input("What's your name? ")
-
   print("Nice to meet you, " + name + "!")
 
-
   # Try string methods
-
   print(name.upper())
-
   print(name.lower())
-
   print("Your name has", len(name), "letters.")
-
   ```
-
 
   ***
 
-
   ### 🏠 Take-Home Challenge: My Intro Script
-
 
   Create a script called `my_intro_script.py` that:
 
-
   * Asks the user for their name, favorite food, and a number
-
   * Prints a few fun sentences using the answers
-
   * Uses string concatenation and at least one string method
-
   * Includes 2 comments to explain your code
-
 
   **Example Output:**
 
-
   ```
-
   What is your name? Travis
-
   What's your favorite food? tacos
-
   Pick a number: 3
 
-
   Hello Travis!
-
   Wow, 3 tacos sounds great!
-
   TRAVIS really likes tacos.
-
   ```
-
 
   Submit your file to Google Classroom when finished.
 
-showEditor: true
-editors:
-  - course1/unit1/lesson3/lessonpart1/week_1_take-home_exercise.py
